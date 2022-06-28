@@ -1,0 +1,1350 @@
+@font-face {
+  font-family: poppins;
+  src: url(./FontsFree-Net-Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: poppins-regular;
+  src: url(./poppins-regular.ttf);
+}
+header{
+  max-width: 1500px;
+    margin: auto;
+}
+body {
+  margin: auto;
+  padding: 0;
+  font-family: poppins-regular;
+
+}
+.container{
+  max-width: 1500px;
+  margin: auto;
+}
+
+.maingrocery{
+  display: flex;
+  justify-content: center;
+}
+
+.maingrocery .container{
+  display: flex;
+    align-items: center;
+    margin: 2rem 0 13rem;
+    gap: 7rem;
+}
+
+.mainlogodiv {
+  position: relative;
+  margin-top: 23px;
+}
+
+.imglogogdiv {
+  margin-left: 259px;
+
+}
+
+#socialmedialogodiv {
+  float: right;
+  position: relative;
+  bottom: 60px;
+  right: 187px;
+
+
+}
+
+#googlestoreimages>img {
+  margin-right: 18px;
+}
+
+#socialmedialogodiv>ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+
+}
+
+#socialmedialogodiv>ul li {
+  margin: 10px;
+}
+
+#socialmedialogodiv a {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 0.3s;
+}
+
+#facebooklogo {
+  background-image: url(https://www.cheetay.pk/static/images/newLandingPage/facebook-header.svg);
+
+
+}
+
+#facebooklogo:hover {
+  background-image: url(https://www.cheetay.pk/static/images/newLandingPage/facebook-header-hover.svg);
+
+}
+
+#instalogo {
+  background-image: url(https://www.cheetay.pk/static/images/newLandingPage/instagram-header.svg);
+}
+
+#instalogo:hover {
+  background-image: url(https://www.cheetay.pk/static/images/newLandingPage/instagram-header-hover.svg);
+}
+
+
+#twitterlogo {
+  background-image: url(https://www.cheetay.pk/static/images/newLandingPage/twitter-header.svg);
+}
+
+#twitterlogo:hover {
+  background-image: url(https://www.cheetay.pk/static/images/newLandingPage/twitter-header-hover.svg);
+}
+
+#snapchatlogo {
+  background-image: url(https://www.cheetay.pk/static/images/newLandingPage/snapchat-header.svg);
+}
+
+#snapchatlogo:hover {
+  background-image: url(https://www.cheetay.pk/static/images/newLandingPage/snapchat-header-hover.svg);
+}
+
+#cart{
+  background-image: url(./304843.svg);
+ background-size: 20px 1rem;
+  
+}
+
+#centeraldiv {
+  text-align: center;
+
+  margin-top: -51px;
+
+}
+
+.mainfood{
+  display: flex;
+  margin: 3rem auto 4rem;
+  justify-content: space-between;
+}
+
+.leftfavouritefood {
+  text-align: center;
+  margin: -162px 0 0 7rem;
+}
+
+.leftfavouritefood img {
+
+  max-width: 100%;
+}
+
+.rightfavouritefood {
+  float: right;
+  position: relative;
+  top: -94px;
+  right: 122px;
+}
+
+.rightfavouritefood h1{
+  font-family: 'poppins';
+  color: #000000;
+  font-size: 28px;
+  font-weight: 600;
+}
+  .rightfavouritefood p{
+    font-family: 'poppins-regular';
+    font-weight: 400;
+    color: #616161;
+  }
+.mainmedicine{
+  display: flex;
+  justify-content: initial;
+}
+.medicinecontainer{
+  display: flex;
+  margin: 5rem auto;
+  gap: 3rem;
+}
+
+.leftmedicine {
+  
+  display: flex;
+  flex-direction: column;
+}
+
+.leftmedicine h1{
+  font-family: 'poppins';
+  color: #000000;
+  font-weight: 600;
+  font-size: 28px;
+}
+  .leftmedicine p{
+    font-family: 'poppins-regular';
+    font-weight: 400;
+    color: #616161;
+  }
+
+
+.rightmedicine {
+  display: flex;
+  margin-left: 3rem;
+  margin-top: -4rem;
+}
+
+.rightmedicine img {
+  max-width: 98%;
+}
+
+@keyframes spin_word {
+  10% {
+    transform: translateY(-112%);
+
+  }
+
+  25% {
+    transform: translateY(-100%);
+  }
+
+  35% {
+    transform: translateY(-212%);
+  }
+
+  50% {
+    transform: translateY(-200%);
+  }
+
+  60% {
+    transform: translateY(-312%);
+  }
+
+  75% {
+    transform: translateY(-300%);
+  }
+
+  85% {
+    transform: translateY(-412%);
+  }
+
+  100% {
+    transform: translateY(-400%);
+  }
+}
+
+span {
+  animation: spin_word 5s infinite;
+  display: block;
+  color: #FF4F00;
+  line-height: 78px;
+  font-size: 40px;
+  font-family: poppins;
+}
+
+#itemssection {
+
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  width: 330px;
+  font-family: poppins;
+  font-weight: bold;
+  overflow: hidden;
+  text-align: right;
+  position: relative;
+  left: 413px;
+  font-size: 600px;
+  top: 70px;
+  height: 59px;
+}
+
+
+#centeraldiv h2 {
+  font-family: poppins;
+    margin-left: 25rem;
+    font-weight: 600;
+    font-size: xx-large;
+    color: #000000;
+}
+
+#centeraldiv #innercenterdiv p {
+  font-size: 20px;
+    line-height: 32px;
+    color: #616161;
+    margin-top: 2rem;
+
+}
+
+#googlestoreimages {
+  position: relative;
+  top: 10px;
+}
+
+
+.boxdiv {
+  border: 3px solid green;
+}
+
+.cheetaymainpic {
+  margin-top: 61px;
+  max-width: 99%;
+  margin-left: 78px;
+}
+
+.cheetaymainpic img {
+  height: 50%;
+  width: 102%;
+}
+
+
+.leftcontainer h1{
+  font-family: 'poppins';
+  color: #000000;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+
+  .leftcontainer p{
+    font-family: 'poppins-regular';
+    font-weight: 400;
+    color: #616161;
+  }
+
+@keyframes box {
+  0% {
+    transform: translateX(0px);
+  }
+
+  51% {
+    transform: translateX(20px);
+    opacity: 1;
+  }
+
+  52% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+
+  53% {
+    opacity: 0;
+  }
+
+  54% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+#box {
+  display: flex;
+  background: linear-gradient(90deg, #FF8046 0%, #FF4F00 49.3%, #FF0000 100%);
+  border-radius: 100px;
+  color: #fff;
+  justify-items: center;
+  align-items: center;
+  width: 17rem;
+  font-size: 16px;
+  height: 45px;
+  border: none;
+}
+
+#box:hover {
+  box-shadow: 03px 0px 16px rgba(0, 0, 0, 0.2);
+}
+
+#box:hover img {
+  animation: box ease-out 0.5s;
+}
+
+#box p {
+  
+  margin-left: 1rem;
+  color: #fff;
+
+}
+
+.arrowimg {
+  margin-left: 1rem;
+  margin-top: 24px;
+}
+#box hr{
+  color: blue;
+    width: 91%;
+    position: absolute;
+    right: 147px;
+    bottom: -4px;
+
+}
+
+#box2 {
+  display: flex;
+  background: linear-gradient(90deg, #FF8046 0%, #FF4F00 49.3%, #FF0000 100%);
+  border-radius: 100px;
+  color: #fff;
+  justify-items: center;
+  align-items: center;
+  width: 14rem;
+  font-size: 16px;
+  height: 45px;
+  border: none;
+}
+
+#box2 p {
+  margin-left: 1rem;
+  color: #fff;
+}
+
+#box2:hover {
+  box-shadow: 03px 0px 16px rgba(0, 0, 0, 0.2);
+}
+
+#box2:hover img {
+  animation: box ease-out 0.5s;
+}
+
+#box2 hr{
+  color: blue;
+    width: 91%;
+    position: absolute;
+    right: 147px;
+    bottom: -4px;
+
+}
+.arrowimg2 {
+  margin-left: 1rem;
+  margin-top: 24px;
+}
+
+
+
+#box3 {
+  display: flex;
+  background: linear-gradient(90deg, #FF8046 0%, #FF4F00 49.3%, #FF0000 100%);
+  border-radius: 100px;
+  color: #fff;
+  justify-items: center;
+  align-items: center;
+  width: 16rem;
+  font-size: 16px;
+  height: 45px;
+  border: none;
+
+}
+
+#box3 p {
+  margin-left: 1rem;
+  color: #fff;
+}
+
+#box3:hover {
+  box-shadow: 03px 0px 16px rgba(0, 0, 0, 0.2);
+}
+
+#box3:hover img {
+  animation: box ease-out 0.5s;
+}
+#box3 hr{
+  color: blue;
+    width: 91%;
+    position: absolute;
+    right: 147px;
+    bottom: -4px;
+
+}
+
+.arrowimg3 {
+  margin-left: 1rem;
+    margin-top: 24px;
+
+}
+
+.leftmilkdiv img {
+  height: 50%;
+  max-width: 100%;
+}
+
+
+.rightmilkdiv h1{
+  font-family: 'poppins';
+  color: #000000;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+  .rightmilkdiv p{
+    font-family: 'poppins-regular';
+    font-weight: 400;
+    color: #616161;
+  }
+
+
+.mainmilkdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+#box4 {
+  display: flex;
+  background: linear-gradient(90deg, #FF8046 0%, #FF4F00 49.3%, #FF0000 100%);
+  border-radius: 100px;
+  color: #fff;
+  padding-left: 16px;
+  width: 16rem;
+  justify-content: flex-end;
+  font-size: 16px;
+  height: 53px;
+  border: none;
+}
+
+#box4 p {
+  margin-right: 43px;
+  color: #fff;
+}
+
+#box4:hover {
+  box-shadow: 03px 0px 16px rgba(0, 0, 0, 0.2);
+}
+
+#box4:hover img {
+  animation: box ease-out 0.5s;
+}
+
+#box4 hr{
+  color: blue;
+    width: 91%;
+    position: absolute;
+    right: 147px;
+    bottom: -4px;
+
+}
+.arrowimg4 {
+  margin-left: -2rem;
+}
+.subdiv{
+  color: white;
+  margin-top: 95px;
+  position: relative;
+  top: 40px;
+  left: -6px;
+}
+.subdiv h1{
+  position: absolute;
+    left: 213px;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'poppins-regular';
+}
+.subscriptiondiv {
+  background: url(https://www.cheetay.pk/static/images/newLandingPage/xoombg.jpg);
+  height: 622px;
+  width: auto;
+  background-size: cover;
+  margin: 8rem auto 9rem;
+}
+
+.subscriptionimg {
+
+  position: relative;
+  left: 171px;
+  top: 128px;
+}
+
+.subscriptionimg h1 {
+  margin-left: 208px;
+  margin-top: 190px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.logodiv {
+
+  position: relative;
+  left: 167px;
+  top: 85px;
+}
+
+.fig2{
+margin-top: -27px;  
+}
+.fig3{
+  margin-top: -31px;
+}
+.logodiv figure figcaption {
+  color: white;
+  position: relative;
+  top: -38px;
+  right: -61px;
+  font-family: 'poppins-regular';
+  font-weight: 400;
+}
+
+
+
+#box6 {
+  display: inline-block;
+  background: linear-gradient(90deg, rgb(255, 128, 70) 0%, rgb(255, 79, 0) 49.3%, rgb(255, 0, 0) 100%);
+  border-radius: 100px;
+  padding: 10px 30px;
+  color: rgb(255, 255, 255);
+  margin-left: 236px;
+  margin-top: 74px;
+  width: 125px;
+  font-size: 16px;
+  height: 38px;
+}
+
+#box6 p {
+  margin-right: 48px;
+  margin-top: 10px;
+}
+
+#box6:hover {
+  box-shadow: 03px 0px 16px rgba(0, 0, 0, 0.2);
+}
+
+#box6:hover img {
+  animation: box ease-out 0.5s;
+}
+
+#box6 hr{
+  color: blue;
+    width: 91%;
+    position: absolute;
+    right: 147px;
+    bottom: -4px;
+
+}
+
+.arrowimg6 {
+  position: relative;
+  left: 50px;
+  bottom: 41px;
+}
+
+
+
+#box7 {
+  display: flex;
+  background: linear-gradient(90deg, #FF8046 0%, #FF4F00 49.3%, #FF0000 100%);
+  border-radius: 100px;
+  color: #fff;
+  justify-items: center;
+  align-items: center;
+  width: 12rem;
+  margin-top: 2rem;
+  justify-content: end;
+  font-size: 16px;
+  height: 45px;
+  border: none;
+}
+
+#box7 p {
+  padding-top: 32px;
+  color: #fff;
+
+}
+
+#box7:hover {
+  box-shadow: 03px 0px 16px rgba(0, 0, 0, 0.2);
+}
+
+#box7:hover img {
+  animation: box ease-out 0.5s;
+}
+
+#box7 hr{
+  color: blue;
+    width: 91%;
+    position: absolute;
+    right: 147px;
+    bottom: -4px;
+
+}
+.arrowimg7 {
+  margin-left: 1rem;
+    margin-top: 24px;
+}
+
+
+.leftgame img {
+  
+  max-width: 81%;
+}
+.rightgame{
+  display: flex;
+  flex-direction: column;
+}
+.rightgame h1{
+  font-family: 'poppins';
+  color: #000000;
+  font-weight: 600;
+  font-size: 28px;
+}
+.rightgame pre{
+
+  text-align: initial;
+}
+  .rightgame p{
+    font-family: 'poppins-regular';
+    text-align: left;
+    font-weight: 400;
+    margin-top: -1rem;
+    color: #616161;
+  }
+
+.gameappmain {
+  display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+}
+
+.downloadlogo {
+  background: url(https://www.cheetay.pk/static/images/newLandingPage/download-now.jpg);
+  height: 411px;
+    background-position: center;
+    margin-bottom: 6rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.cheetaypop {
+  text-align: initial;
+  margin: 0 0 0;
+
+}
+
+.downloadlogodiv {
+  display: flex;
+  align-items: center;
+  padding-top: 5rem;
+  margin: 3rem auto;
+  flex-direction: column;
+}
+
+.downloadlogodiv h1{
+  font-family: 'poppins';
+    font-weight: 600;
+}
+
+
+.downloadlogodiv h3{
+  font-family: 'poppins-regular';
+  font-weight: 400;
+  color: #616161;
+}
+
+footer {
+  background-color: black;
+  height: 365px;
+
+  width: 101%;
+}
+
+.mainfootersection {
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+.leftdiv h2 {
+  font-weight: 500;
+  font-family: 'poppins-regular';
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.leftdiv {
+  color: #fff;
+  font-size: 0.9em;
+}
+
+.mainfootersection .leftdiv h4 {
+
+
+  font-family: 'poppins-regular';
+  font-weight: 400;
+  color: #c6c6c6;
+
+}
+
+.centerdiv {
+  color: #fff;
+  margin-left: 210px;
+  font-size: 0.9em;
+}
+
+.mainfootersection .centerdiv h4 {
+
+
+  font-family: 'poppins-regular';
+    font-weight: 400;
+    color: #c6c6c6;
+}
+
+.centerdiv h2{
+  font-weight: 500;
+  font-family: 'poppins-regular';
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.rightdiv {
+  color: #fff;
+  margin-left: 210px;
+  font-size: 0.9em;
+}
+
+.rightdiv h2{
+  font-weight: 500;
+  font-family: 'poppins-regular';
+  color: #ffffff;
+  font-size: 14px;
+}
+
+
+.mainfootersection .rightdiv h4 {
+
+
+  font-family: 'poppins-regular';
+  font-weight: 400;
+  color: #c6c6c6;
+}
+
+
+
+.mainfootersection .rightdiv input {
+
+  border: 2px solid ghostwhite;
+  height: 35px;
+  border-radius: 19px;
+  width: 293px;
+}
+
+.rightdiv #rightdivinput:focus {
+  background-color: white;
+}
+
+
+
+#box8 {
+  background: linear-gradient(90deg, rgb(255, 128, 70) 0%, rgb(255, 79, 0) 49.3%, rgb(255, 0, 0) 100%);
+  border-radius: 100px;
+  display: flex;
+  padding: 10px 30px;
+  color: rgb(255, 255, 255);
+  margin-left: -300px;
+  margin-top: 168px;
+  width: 102px;
+  height:33px;
+}
+
+#box8 p {
+  margin-right: 48px;
+  margin-top: 4px;
+}
+
+#box8:hover {
+  box-shadow: 03px 0px 16px rgba(0, 0, 0, 0.2);
+}
+
+#box8:hover img {
+  animation: box ease-out 0.5s;
+}
+
+
+.arrowimg8 {
+  margin-left: -36px;
+  margin-top: 5px;
+}
+
+.hrline hr{
+  color: blue;
+    width: 91%;
+   
+
+}
+
+.bottomimage figcaption{
+  color: white;
+}
+
+#socialmedialogodiv2>ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+
+}
+
+#socialmedialogodiv2>ul li {
+
+  margin: 10px;
+
+}
+#socialmedialogodiv2 a {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#facebooklogo2 {
+  background-image: url(https://www.cheetay.pk/static/images/newLandingPage/facebook-footer.svg);
+
+}
+#instalogo2 {
+  background-image: url(https://www.cheetay.pk/static/images/newLandingPage/instagram-footer.svg);
+}
+
+#twitterlogo2 {
+  background-image: url(https://www.cheetay.pk/static/images/newLandingPage/twitter-footer.svg);
+}
+
+#snapchatlogo2 {
+  background-image: url(https://www.cheetay.pk/static/images/newLandingPage/snapchat-footer.svg);
+}
+
+  
+  .formdiv{
+    display: flex;
+    align-items: center;
+    margin-top: 66px;
+    margin-bottom: 90px;
+    flex-direction: column;
+    padding-right: 54px;
+
+  }
+
+.formdiv h1{
+  
+  align-self: baseline;
+  margin-left: 2rem;
+}
+.formdiv h3{
+  align-self: baseline;
+  font-size: medium;
+  font-weight: 100;
+  margin-left: 2rem;
+
+}
+  #emailid{
+    margin-bottom: 19px;
+    width: 90%;
+    background: transparent;
+    border: 1px solid black;
+  }
+
+  #emailid:focus{
+
+    background: white;
+    
+    border: 2px solid blue;
+  }
+
+  #usernameid{
+    margin-bottom: 19px;
+    width: 90%;
+    background: transparent;
+    border: 1px solid black;
+  }
+  #usernameid:focus{
+
+    background: white;
+    
+    border: 2px solid blue;
+  }
+  #passwordid{
+    margin-bottom: 19px;
+    width: 90%;
+    background: transparent;
+    border: 1px solid black;
+  }
+  #passwordid:focus{
+
+    background: white;
+    
+    border: 2px solid blue;
+  }
+  
+  
+  input::placeholder{
+   font-family: poppins;
+   font-weight: 500;
+   color: #fff;
+  }
+
+  label{
+      color: black;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 600px;
+      font-family: poppins;
+  }
+  .formdiv input{
+    margin-top: 10px;
+    width: 196px;
+    height: 44px;
+  }
+  #formId h1{
+    color: #fff;
+    font-size: larger;
+    font-weight: 600;
+    width: 37%;
+    margin-left: 169px;
+    background: blue;
+  }
+  #password{
+    margin-bottom: 19px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 46px; 
+  }
+
+
+  #password:focus{
+
+    background: white;
+    
+    border: 2px solid blue;
+  }
+
+  .newformdiv{
+    text-align: -webkit-center;
+    margin-bottom: 179px;
+    height: 422px;
+
+  }
+  #newformId{
+    background: url(https://www.cheetay.pk/static/images/newLandingPage/xoombg.jpg);
+    text-align: center;
+    width: 578px;
+    height: 518px;
+    margin-top: 24px;
+    background-size: inherit;
+    margin-left: 130px;
+    padding: 34px;
+    background-position: 61%;
+    background-repeat: no-repeat;
+    }
+
+    .newformdiv input{
+      margin-top: 10px;
+    width: 196px;
+    height: 44px;
+    }
+    #newformId h1{
+      color: #fff;
+      font-size: larger;
+      font-weight: 600;
+      text-align: inherit;
+      width: 22%;
+      margin-left: 220px;
+      background: blue;
+    }
+   
+    #create{
+      height: 53px;
+      width: 168px;
+      margin: -13px;
+      border: 1px solid white;
+      background-color: blue;
+
+    }
+
+    .rightpic{
+      
+      float: right;
+      margin-top: -10px;
+      width: 465px;
+      background-repeat: no-repeat;
+      margin-right: -198px;
+      background: url(https://login.mailchimp.com/release/1.1.1e7f22261d02ef29f0947088eea7836dd2f85ad03/images/brand_assets/illos/art-hero-flowers.png);
+      background-color: yellow;
+
+    }
+
+    .authdiv{
+display: flex;
+flex-direction: column;
+    }
+    .authdiv h5{
+      margin-left: 33px;
+    margin-top: -25px;
+  
+    }
+    .authdiv2{
+      display: flex;
+      flex-direction: column;
+          }
+          .authdiv2 h5{
+            margin-left: -195px;
+            margin-top: -25px;
+            align-self: center;
+          }
+    .signinformdiv{
+      display: flex;
+      margin-top: 66px;
+      margin-bottom: 90px;
+      flex-direction: column;
+     
+    }
+
+    .signinformdiv form{
+      display: flex;
+      flex-direction: column;
+    }
+
+
+    .signinformdiv input{
+      background: green;
+      width: 85%;
+      height: 33px;
+      border: none;
+      font-size: large;
+      cursor: pointer;
+  
+    }
+
+
+    .signinrightpic{
+      background: url(https://cdn-images.mailchimp.com/billboards/phpza0iJx.jpeg);
+      background-repeat: round;
+      flex: auto;
+      margin-right: -206px;
+      width: 873px;
+    
+      
+    }
+    #usernameid2{
+      margin-bottom: 19px;
+      width: 85%;
+      background: transparent;
+      border: 1px solid black;
+    }
+    #passwordid2{
+      margin-bottom: 19px;
+      width: 85%;
+      background: transparent;
+      border: 1px solid black;
+    }
+
+.login-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-container section {
+  flex: 2;
+  margin-left: 200px;
+}
+.login-container2 {
+  display: flex;
+  justify-content: space-between;
+}
+.login-container2 section {
+  flex: 2;
+  margin-left: 46px;
+}
+.login-container2 h3{
+font-size: smaller;
+font-weight: 500;
+}
+
+
+.maincartsection{
+
+  border: solid black;
+  height: 947px;
+  display: flex;
+  margin-left: 121px;
+  margin-bottom: 78px;
+  flex-direction: column;
+  
+}
+
+.maincartsection h1{
+
+  padding-left: 26px; 
+}
+
+.tabletclass{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#menu{
+  background: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-ipad-nav-202108?wid=200&hei=130&fmt=png-alpha&.v=1625783381000);
+  height: 139px;
+  background-repeat: no-repeat;
+
+}
+
+#ipaddescription{
+  display: flex;
+  flex-direction: row;
+  gap: 15rem;
+  margin: -9rem 0rem -1rem 11rem;
+  align-items: center;
+}
+#ipaddescription h1{
+  font-weight: 500;
+}
+
+.pricediv{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-right: 16px;
+}
+.maincartsection #itemsbaghr{
+  color: blue;
+  width: 94%;
+  position: relative;
+  right: -30px;
+}
+
+#pricehr{
+  color: blue;
+  width: 78%;
+  position: relative;
+  right: -4rem;
+}
+.ordertime{
+  display: flex;
+    flex-direction: row;
+    margin: -1rem 0 1rem 12rem;
+    width: 61rem;
+    margin-right: 1rem;
+    gap: 22rem;
+}
+.removeorder{
+  display: flex;
+  flex-direction: column;
+
+}
+.removeorder h6{
+  margin-top: -19px;
+}
+.giftcards{
+  margin-left: 13rem;
+  margin-top: -4rem;
+  color: skyblue;
+  font-size: initial;
+}
+
+
+.mobileclass{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.mobileclass #menu2{
+  background: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-iphone-nav-202109_GEO_US?wid=200&hei=130&fmt=png-alpha&.v=1630706116000);
+  height: 139px;
+  background-repeat: no-repeat;
+
+}
+#pricehr2{
+  color: blue;
+  width: 94%;
+  position: relative;
+  right: 1rem;
+}
+
+.billsection{
+  display: flex;
+ 
+}
+
+.shippingtext{
+  margin-left: auto;
+  margin-right: 3rem;
+  
+}
+
+.shippingPrice{
+  margin-right: 1rem;
+}
+
+.totalbill{
+  display: flex;
+  margin-left: auto;
+  justify-content: flex-end;
+}
+.maintotalbill hr{
+  width: 12rem;
+  justify-content: flex-end;
+  float: right;
+  margin-right: 4rem;
+  margin-bottom: -1rem;
+}
+.checkout{
+  display: flex;
+}
+.checkout ul{
+display: flex;
+list-style-type: none;
+color: skyblue;
+gap: 2rem;
+cursor: pointer;
+}
+
+.checkoutButton{
+
+  margin: 4px 2rem 0 auto;
+
+}
+
+.checkoutButton button{
+  background-color: skyblue;
+  height: 32px;
+    width: 90px;
+    cursor: pointer;
+    border: none;
+}
+
+.pricediv input::placeholder{
+  color: black;
+  text-align: center;
+}
+
+.row-bottoms{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-left: -30rem;
+}
+.mainfooterdiv{
+  display: flex;
+    gap: 38rem;
+    align-self: start;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainfooterdiv figure{
+  display: flex;
+  padding-left: 2rem;
+}
+.bottomimage img{
+  margin-right: 1rem;
+}
+#forget {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 4rem;
+}
+
+
+
